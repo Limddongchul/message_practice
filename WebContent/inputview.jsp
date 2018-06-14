@@ -17,6 +17,7 @@
 			alert("입력에 실패하였습니다.");
 			loaction.href="login.jsp";
 		}
+		]hjfjhfhgfghg
 	</script>
 </body>
 </html>
