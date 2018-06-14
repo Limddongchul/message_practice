@@ -11,7 +11,7 @@
 <body>
 	<script>
 		if(${result}>0){
-			alert("입력이완료되었습니다.");
+			alert("입력이완료되었습니다.gg");
 			location.href="index.jsp";
 		}else{
 			alert("입력에 실패하였습니다.");
