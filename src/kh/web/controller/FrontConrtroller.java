@@ -30,12 +30,16 @@ public class FrontConrtroller extends HttpServlet {
 		String command = requestURI.substring(contextPath.length());
 		
 		if(command.equals("/input.do")) {
+			System.out.println("들어온다1");
 			String name = request.getParameter("name");
 			String message = request.getParameter("message");
 			
+			System.out.println("들어온다4");
 			MessageDAO dao = new MessageDAO();
+			System.out.println("들어온다5");
 			int result = dao.insertData(name, message);
-			
+			System.out.println("들어온다2");
+			System.out.println(name);
 			request.setAttribute("result", result);
 			
 			isRedirect = false;
@@ -54,7 +58,7 @@ public class FrontConrtroller extends HttpServlet {
 		}
 		
 		}catch(Exception e) {
-			
+			e.printStackTrace();
 		}
 		
 		if(isRedirect) {

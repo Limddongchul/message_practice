@@ -17,7 +17,7 @@
 
 </head>
 <body>
-	<form action="input.do">
+	<form action="input.do" method="get">
 		이름 : <input type="text" placeholder="이름을 입력하세요" name="name"><br>
 		메시지 : <input type="text" placeholder="메시지를 입력하세요" name="message"><br>
 		<input type="submit" vlaue="전송">
