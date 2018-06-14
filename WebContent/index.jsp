@@ -12,7 +12,7 @@
 			$(location).attr("href","input.jsp");
 		})
 		$("#output").click(function(){
-			$(loaction).attr("href","output.do");
+			$(location).attr("href","output.do");
 		})
 	})
 </script>
